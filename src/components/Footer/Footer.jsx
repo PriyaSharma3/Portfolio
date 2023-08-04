@@ -17,15 +17,15 @@ const Footer = () => {
           <Col md="4" className="footer-copywright">
             <span>Dedicated to creating impactful solutions!</span>
           </Col>
-          <Col md="4" className="footer-copywright">
+          {/* <Col md="4" className="footer-copywright">
             <span>Copyright © {year}</span>
             <img src={logo} className="img-fluid logo" alt="brand" />
-          </Col>
+          </Col> */}
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                  href="https://github.com/19sajib"
+                  href="https://github.com/PriyaSharma3"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -36,7 +36,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/19sajib"
+                  href="https://twitter.com/priyasharma_024"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/19sajib/"
+                  href="https://www.linkedin.com/in/priya-sharma-a58211191/"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const Footer = () => {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/19sajib"
                   style={{ color: "white" }}
@@ -66,7 +66,7 @@ const Footer = () => {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>

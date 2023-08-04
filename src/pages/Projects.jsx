@@ -60,7 +60,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={krypto}
               isBlog={false}
@@ -69,9 +69,9 @@ const Projects = () => {
               ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
               demoLink="https://project-krypto.netlify.app/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={kickstart}
               isBlog={false}
@@ -79,7 +79,7 @@ const Projects = () => {
               description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
               ghLink="https://github.com/19sajib/Solidity-Kickstart"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

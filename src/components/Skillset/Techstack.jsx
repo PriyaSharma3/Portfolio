@@ -33,7 +33,7 @@ const Techstack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -41,13 +41,13 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiMaterialui />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiGit />
-      </Col>
+      </Col> */}
     </Row>
   );
 }

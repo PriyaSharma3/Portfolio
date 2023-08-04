@@ -20,25 +20,25 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hi, my name is <span className="yellow">Priya Sharma </span>
+                 and I'm from <span className="yellow"> Mathura, Uttar Pradesh.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I recently graduated with a Bachelor's degree in Electronics & Communication Engineering in 2023.
                 <br />
                 <br />
                   As a
-                  <b className="yellow"> Full-Stack </b>developer,  
+                  <b className="yellow"> Software </b>developer,  
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                    <b className="yellow"> React Js, </b>
+                    as well as have knowledge in programming languages such as C++,C
+                  <b className="yellow"> Html, Css, Javascript,Node Js, MYSQL.</b>
                   <br />
                   <br />
                   I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
+                  with <b className="yellow">React Js,</b> and
                   <i>
                     <b className="yellow">
                       {" "}
@@ -74,40 +74,40 @@ const About = () => {
                 Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
                 </p>
                 <ul className="home-about-social-links">
-                  <li className="social-icons">
-                    <a
-                      href="https://github.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="github"
-                    >
-                      <AiFillGithub />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="twitter"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.linkedin.com/in/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="linkedin"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li className="social-icons">
+                <li className="social-icons">
+                <a
+                  href="https://github.com/PriyaSharma3"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="github"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/priyasharma_024"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="twitter"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/priya-sharma-a58211191/"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="linkedin"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+                  {/* <li className="social-icons">
                     <a
                       href="https://www.instagram.com/19sajib"
                       target="_blank"
@@ -117,7 +117,7 @@ const About = () => {
                     >
                       <AiFillInstagram />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </Col>
             </Row>
